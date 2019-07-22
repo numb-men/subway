@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<subway>
+    <lines>
+        <line name="1号线">
+            <stations>
+                <station id="0" name="刘园" line="1号线">
+                    <neighbors>
+                        <neighbor>西横堤</neighbor>
+                    </neighbors>
+                </station>
+                <station id="1" name="西横堤" line="1号线">
+                    <neighbors>
+                        <neighbor>刘园</neighbor>
+                        <neighbor>果酒厂</neighbor>
+                    </neighbors>
+                </station>
+                <station id="2" name="果酒厂" line="1号线">
+                    <neighbors>
+                        <neighbor>西横堤</neighbor>
+                        <neighbor>本溪路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="3" name="本溪路" line="1号线">
+                    <neighbors>
+                        <neighbor>果酒厂</neighbor>
+                        <neighbor>勤俭道</neighbor>
+                    </neighbors>
+                </station>
+                <station id="4" name="勤俭道" line="1号线">
+                    <neighbors>
+                        <neighbor>本溪路</neighbor>
+                        <neighbor>洪湖里</neighbor>
+                    </neighbors>
+                </station>
+                <station id="5" name="洪湖里" line="1号线">
+                    <neighbors>
+                        <neighbor>勤俭道</neighbor>
+                        <neighbor>西站</neighbor>
+                    </neighbors>
+                </station>
+                <station id="6" name="西站" line="1号线 6号线">
+                    <neighbors>
+                        <neighbor>复兴路</neighbor>
+                        <neighbor>西北角</neighbor>
+                        <neighbor>洪湖里</neighbor>
+                        <neighbor>北林路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="7" name="西北角" line="1号线">
+                    <neighbors>
+                        <neighbor>西站</neighbor>
+                        <neighbor>西南角</neighbor>
+                    </neighbors>
+                </station>
+                <station id="8" name="西南角" line="2号线 1号线">
+                    <neighbors>
+                        <neighbor>西北角</neighbor>
+                        <neighbor>二纬路</neighbor>
+                        <neighbor>广开四马路</neighbor>
+                        <neighbor>鼓楼</neighbor>
+                    </neighbors>
+                </station>
+                <station id="9" name="二纬路" line="1号线">
+                    <neighbors>
+                        <neighbor>西南角</neighbor>
+                        <neighbor>海光寺</neighbor>
+                    </neighbors>
+                </station>
+                <station id="10" name="海光寺" line="1号线">
+                    <neighbors>
+                        <neighbor>二纬路</neighbor>
+                        <neighbor>鞍山道</neighbor>
+                    </neighbors>
+                </station>
+                <station id="11" name="鞍山道" line="1号线">
+                    <neighbors>
+                        <neighbor>海光寺</neighbor>
+                        <neighbor>营口道</neighbor>
+                    </neighbors>
+                </station>
+                <station id="12" name="营口道" line="3号线 1号线">
+                    <neighbors>
+                        <neighbor>和平路</neighbor>
+                        <neighbor>小白楼</neighbor>
+                        <neighbor>西康路</neighbor>
+                        <neighbor>鞍山道</neighbor>
+                    </neighbors>
+                </station>
+                <station id="13" name="小白楼" line="1号线">
+                    <neighbors>
+                        <neighbor>营口道</neighbor>
+                        <neighbor>下瓦房</neighbor>
+                    </neighbors>
+                </station>
+                <station id="14" name="下瓦房" line="1号线 5号线">
+                    <neighbors>
+                        <neighbor>小白楼</neighbor>
+                        <neighbor>直沽</neighbor>
+                        <neighbor>西南楼</neighbor>
+                        <neighbor>南楼</neighbor>
+                    </neighbors>
+                </station>
+                <station id="15" name="南楼" line="1号线">
+                    <neighbors>
+                        <neighbor>下瓦房</neighbor>
+                        <neighbor>土城</neighbor>
+                    </neighbors>
+                </station>
+                <station id="16" name="土城" line="1号线">
+                    <neighbors>
+                        <neighbor>南楼</neighbor>
+                        <neighbor>陈塘庄</neighbor>
+                    </neighbors>
+                </station>
+                <station id="17" name="陈塘庄" line="1号线">
+                    <neighbors>
+                        <neighbor>土城</neighbor>
+                        <neighbor>复兴门</neighbor>
+                    </neighbors>
+                </station>
+                <station id="18" name="复兴门" line="1号线">
+                    <neighbors>
+                        <neighbor>陈塘庄</neighbor>
+                        <neighbor>华山里</neighbor>
+                    </neighbors>
+                </station>
+                <station id="19" name="华山里" line="1号线">
+                    <neighbors>
+                        <neighbor>复兴门</neighbor>
+                        <neighbor>财经大学</neighbor>
+                    </neighbors>
+                </station>
+                <station id="20" name="财经大学" line="1号线">
+                    <neighbors>
+                        <neighbor>华山里</neighbor>
+                        <neighbor>双林</neighbor>
+                    </neighbors>
+                </station>
+                <station id="21" name="双林" line="1号线">
+                    <neighbors>
+                        <neighbor>财经大学</neighbor>
+                        <neighbor>李楼</neighbor>
+                    </neighbors>
+                </station>
+                <station id="22" name="李楼" line="1号线">
+                    <neighbors>
+                        <neighbor>双林</neighbor>
+                        <neighbor>梨双路北</neighbor>
+                    </neighbors>
+                </station>
+                <station id="23" name="梨双路北" line="1号线">
+                    <neighbors>
+                        <neighbor>李楼</neighbor>
+                        <neighbor>洪泥河东</neighbor>
+                    </neighbors>
+                </station>
+                <station id="24" name="洪泥河东" line="1号线">
+                    <neighbors>
+                        <neighbor>梨双路北</neighbor>
+                        <neighbor>高庄子</neighbor>
+                    </neighbors>
+                </station>
+                <station id="25" name="高庄子" line="1号线">
+                    <neighbors>
+                        <neighbor>洪泥河东</neighbor>
+                        <neighbor>上郭庄</neighbor>
+                    </neighbors>
+                </station>
+                <station id="26" name="上郭庄" line="1号线">
+                    <neighbors>
+                        <neighbor>高庄子</neighbor>
+                        <neighbor>北洋村</neighbor>
+                    </neighbors>
+                </station>
+                <station id="27" name="北洋村" line="1号线">
+                    <neighbors>
+                        <neighbor>上郭庄</neighbor>
+                        <neighbor>国展路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="28" name="国展路" line="1号线">
+                    <neighbors>
+                        <neighbor>北洋村</neighbor>
+                        <neighbor>东沽路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="29" name="东沽路" line="1号线">
+                    <neighbors>
+                        <neighbor>国展路</neighbor>
+                        <neighbor>咸水沽北</neighbor>
+                    </neighbors>
+                </station>
+                <station id="30" name="咸水沽北" line="1号线">
+                    <neighbors>
+                        <neighbor>东沽路</neighbor>
+                        <neighbor>双桥河</neighbor>
+                    </neighbors>
+                </station>
+                <station id="31" name="双桥河" line="1号线">
+                    <neighbors>
+                        <neighbor>咸水沽北</neighbor>
+                    </neighbors>
+                </station>
+            </stations>
+        </line>
+        <line name="2号线">
+            <stations>
+                <station id="32" name="曹庄" line="2号线">
+                    <neighbors>
+                        <neighbor>卞兴</neighbor>
+                    </neighbors>
+                </station>
+                <station id="33" name="卞兴" line="2号线">
+                    <neighbors>
+                        <neighbor>曹庄</neighbor>
+                        <neighbor>芥园西道</neighbor>
+                    </neighbors>
+                </station>
+                <station id="34" name="芥园西道" line="2号线">
+                    <neighbors>
+                        <neighbor>卞兴</neighbor>
+                        <neighbor>咸阳路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="35" name="咸阳路" line="2号线">
+                    <neighbors>
+                        <neighbor>芥园西道</neighbor>
+                        <neighbor>长虹公园</neighbor>
+                    </neighbors>
+                </station>
+                <station id="36" name="长虹公园" line="2号线 6号线">
+                    <neighbors>
+                        <neighbor>宜宾道</neighbor>
+                        <neighbor>咸阳路</neighbor>
+                        <neighbor>人民医院</neighbor>
+                        <neighbor>广开四马路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="37" name="广开四马路" line="2号线">
+                    <neighbors>
+                        <neighbor>长虹公园</neighbor>
+                        <neighbor>西南角</neighbor>
+                    </neighbors>
+                </station>
+                <station id="38" name="西南角" line="2号线 1号线">
+                    <neighbors>
+                        <neighbor>西北角</neighbor>
+                        <neighbor>二纬路</neighbor>
+                        <neighbor>广开四马路</neighbor>
+                        <neighbor>鼓楼</neighbor>
+                    </neighbors>
+                </station>
+                <station id="39" name="鼓楼" line="2号线">
+                    <neighbors>
+                        <neighbor>西南角</neighbor>
+                        <neighbor>东南角</neighbor>
+                    </neighbors>
+                </station>
+                <station id="40" name="东南角" line="2号线">
+                    <neighbors>
+                        <neighbor>鼓楼</neighbor>
+                        <neighbor>建国道</neighbor>
+                    </neighbors>
+                </station>
+                <station id="41" name="建国道" line="2号线">
+                    <neighbors>
+                        <neighbor>东南角</neighbor>
+                        <neighbor>天津站</neighbor>
+                    </neighbors>
+                </station>
+                <station id="42" name="天津站" line="3号线 2号线 9号线">
+                    <neighbors>
+                        <neighbor>津湾广场</neighbor>
+                        <neighbor>金狮桥</neighbor>
+                        <neighbor>远洋国际中心</neighbor>
+                        <neighbor>大王庄</neighbor>
+                        <neighbor>建国道</neighbor>
+                    </neighbors>
+                </station>
+                <station id="43" name="远洋国际中心" line="2号线">
+                    <neighbors>
+                        <neighbor>天津站</neighbor>
+                        <neighbor>顺驰桥</neighbor>
+                    </neighbors>
+                </station>
+                <station id="44" name="顺驰桥" line="2号线">
+                    <neighbors>
+                        <neighbor>远洋国际中心</neighbor>
+                        <neighbor>靖江路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="45" name="靖江路" line="2号线 5号线">
+                    <neighbors>
+                        <neighbor>顺驰桥</neighbor>
+                        <neighbor>成林道</neighbor>
+                        <neighbor>幸福公园</neighbor>
+                        <neighbor>翠阜新村</neighbor>
+                    </neighbors>
+                </station>
+                <station id="46" name="翠阜新村" line="2号线">
+                    <neighbors>
+                        <neighbor>靖江路</neighbor>
+                        <neighbor>屿东城</neighbor>
+                    </neighbors>
+                </station>
+                <station id="47" name="屿东城" line="2号线">
+                    <neighbors>
+                        <neighbor>翠阜新村</neighbor>
+                        <neighbor>登州路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="48" name="登州路" line="2号线">
+                    <neighbors>
+                        <neighbor>屿东城</neighbor>
+                        <neighbor>国山路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="49" name="国山路" line="2号线">
+                    <neighbors>
+                        <neighbor>登州路</neighbor>
+                        <neighbor>空港经济区</neighbor>
+                    </neighbors>
+                </station>
+                <station id="50" name="空港经济区" line="2号线">
+                    <neighbors>
+                        <neighbor>国山路</neighbor>
+                        <neighbor>滨海国际机场</neighbor>
+                    </neighbors>
+                </station>
+                <station id="51" name="滨海国际机场" line="2号线">
+                    <neighbors>
+                        <neighbor>空港经济区</neighbor>
+                    </neighbors>
+                </station>
+            </stations>
+        </line>
+        <line name="3号线">
+            <stations>
+                <station id="52" name="南站" line="3号线">
+                    <neighbors>
+                        <neighbor>杨伍庄</neighbor>
+                    </neighbors>
+                </station>
+                <station id="53" name="杨伍庄" line="3号线">
+                    <neighbors>
+                        <neighbor>南站</neighbor>
+                        <neighbor>学府工业区</neighbor>
+                    </neighbors>
+                </station>
+                <station id="54" name="学府工业区" line="3号线">
+                    <neighbors>
+                        <neighbor>杨伍庄</neighbor>
+                        <neighbor>高新区</neighbor>
+                    </neighbors>
+                </station>
+                <station id="55" name="高新区" line="3号线">
+                    <neighbors>
+                        <neighbor>学府工业区</neighbor>
+                        <neighbor>大学城</neighbor>
+                    </neighbors>
+                </station>
+                <station id="56" name="大学城" line="3号线">
+                    <neighbors>
+                        <neighbor>高新区</neighbor>
+                        <neighbor>华苑</neighbor>
+                    </neighbors>
+                </station>
+                <station id="57" name="华苑" line="3号线">
+                    <neighbors>
+                        <neighbor>大学城</neighbor>
+                        <neighbor>王顶堤</neighbor>
+                    </neighbors>
+                </station>
+                <station id="58" name="王顶堤" line="3号线">
+                    <neighbors>
+                        <neighbor>华苑</neighbor>
+                        <neighbor>红旗南路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="59" name="红旗南路" line="3号线 6号线">
+                    <neighbors>
+                        <neighbor>一中心医院</neighbor>
+                        <neighbor>王顶堤</neighbor>
+                        <neighbor>迎风道</neighbor>
+                        <neighbor>周邓纪念馆</neighbor>
+                    </neighbors>
+                </station>
+                <station id="60" name="周邓纪念馆" line="3号线">
+                    <neighbors>
+                        <neighbor>红旗南路</neighbor>
+                        <neighbor>天塔</neighbor>
+                    </neighbors>
+                </station>
+                <station id="61" name="天塔" line="3号线">
+                    <neighbors>
+                        <neighbor>周邓纪念馆</neighbor>
+                        <neighbor>吴家窑</neighbor>
+                    </neighbors>
+                </station>
+                <station id="62" name="吴家窑" line="3号线">
+                    <neighbors>
+                        <neighbor>天塔</neighbor>
+                        <neighbor>西康路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="63" name="西康路" line="3号线">
+                    <neighbors>
+                        <neighbor>吴家窑</neighbor>
+                        <neighbor>营口道</neighbor>
+                    </neighbors>
+                </station>
+                <station id="64" name="营口道" line="3号线 1号线">
+                    <neighbors>
+                        <neighbor>和平路</neighbor>
+                        <neighbor>小白楼</neighbor>
+                        <neighbor>西康路</neighbor>
+                        <neighbor>鞍山道</neighbor>
+                    </neighbors>
+                </station>
+                <station id="65" name="和平路" line="3号线">
+                    <neighbors>
+                        <neighbor>营口道</neighbor>
+                        <neighbor>津湾广场</neighbor>
+                    </neighbors>
+                </station>
+                <station id="66" name="津湾广场" line="3号线">
+                    <neighbors>
+                        <neighbor>和平路</neighbor>
+                        <neighbor>天津站</neighbor>
+                    </neighbors>
+                </station>
+                <station id="67" name="天津站" line="3号线 2号线">
+                    <neighbors>
+                        <neighbor>津湾广场</neighbor>
+                        <neighbor>金狮桥</neighbor>
+                        <neighbor>远洋国际中心</neighbor>
+                        <neighbor>建国道</neighbor>
+                    </neighbors>
+                </station>
+                <station id="68" name="金狮桥" line="3号线">
+                    <neighbors>
+                        <neighbor>天津站</neighbor>
+                        <neighbor>中山路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="69" name="中山路" line="3号线">
+                    <neighbors>
+                        <neighbor>金狮桥</neighbor>
+                        <neighbor>北站</neighbor>
+                    </neighbors>
+                </station>
+                <station id="70" name="北站" line="3号线 6号线">
+                    <neighbors>
+                        <neighbor>中山路</neighbor>
+                        <neighbor>新开河</neighbor>
+                        <neighbor>铁东路</neighbor>
+                        <neighbor>北宁公园</neighbor>
+                    </neighbors>
+                </station>
+                <station id="71" name="铁东路" line="3号线">
+                    <neighbors>
+                        <neighbor>北站</neighbor>
+                        <neighbor>张兴庄</neighbor>
+                    </neighbors>
+                </station>
+                <station id="72" name="张兴庄" line="3号线 5号线">
+                    <neighbors>
+                        <neighbor>志成路</neighbor>
+                        <neighbor>宜兴埠</neighbor>
+                        <neighbor>铁东路</neighbor>
+                        <neighbor>宜兴埠北</neighbor>
+                    </neighbors>
+                </station>
+                <station id="73" name="宜兴埠" line="3号线">
+                    <neighbors>
+                        <neighbor>张兴庄</neighbor>
+                        <neighbor>天士力</neighbor>
+                    </neighbors>
+                </station>
+                <station id="74" name="天士力" line="3号线">
+                    <neighbors>
+                        <neighbor>宜兴埠</neighbor>
+                        <neighbor>华北集团</neighbor>
+                    </neighbors>
+                </station>
+                <station id="75" name="华北集团" line="3号线">
+                    <neighbors>
+                        <neighbor>天士力</neighbor>
+                        <neighbor>丰产河</neighbor>
+                    </neighbors>
+                </station>
+                <station id="76" name="丰产河" line="3号线">
+                    <neighbors>
+                        <neighbor>华北集团</neighbor>
+                        <neighbor>小淀</neighbor>
+                    </neighbors>
+                </station>
+                <station id="77" name="小淀" line="3号线">
+                    <neighbors>
+                        <neighbor>丰产河</neighbor>
+                    </neighbors>
+                </station>
+            </stations>
+        </line>
+        <line name="5号线">
+            <stations>
+                <station id="78" name="北辰科技园北" line="5号线">
+                    <neighbors>
+                        <neighbor>丹河北道</neighbor>
+                    </neighbors>
+                </station>
+                <station id="79" name="丹河北道" line="5号线">
+                    <neighbors>
+                        <neighbor>北辰科技园北</neighbor>
+                        <neighbor>北辰道</neighbor>
+                    </neighbors>
+                </station>
+                <station id="80" name="北辰道" line="5号线">
+                    <neighbors>
+                        <neighbor>丹河北道</neighbor>
+                        <neighbor>职业大学</neighbor>
+                    </neighbors>
+                </station>
+                <station id="81" name="职业大学" line="5号线">
+                    <neighbors>
+                        <neighbor>北辰道</neighbor>
+                        <neighbor>淮河道</neighbor>
+                    </neighbors>
+                </station>
+                <station id="82" name="淮河道" line="5号线">
+                    <neighbors>
+                        <neighbor>职业大学</neighbor>
+                        <neighbor>辽河北道</neighbor>
+                    </neighbors>
+                </station>
+                <station id="83" name="辽河北道" line="5号线">
+                    <neighbors>
+                        <neighbor>淮河道</neighbor>
+                        <neighbor>宜兴埠北</neighbor>
+                    </neighbors>
+                </station>
+                <station id="84" name="宜兴埠北" line="5号线">
+                    <neighbors>
+                        <neighbor>辽河北道</neighbor>
+                        <neighbor>张兴庄</neighbor>
+                    </neighbors>
+                </station>
+                <station id="85" name="张兴庄" line="3号线 5号线">
+                    <neighbors>
+                        <neighbor>志成路</neighbor>
+                        <neighbor>宜兴埠</neighbor>
+                        <neighbor>铁东路</neighbor>
+                        <neighbor>宜兴埠北</neighbor>
+                    </neighbors>
+                </station>
+                <station id="86" name="志成路" line="5号线">
+                    <neighbors>
+                        <neighbor>张兴庄</neighbor>
+                        <neighbor>思源道</neighbor>
+                    </neighbors>
+                </station>
+                <station id="87" name="思源道" line="5号线">
+                    <neighbors>
+                        <neighbor>志成路</neighbor>
+                        <neighbor>建昌道</neighbor>
+                    </neighbors>
+                </station>
+                <station id="88" name="建昌道" line="5号线">
+                    <neighbors>
+                        <neighbor>思源道</neighbor>
+                        <neighbor>金钟河大街</neighbor>
+                    </neighbors>
+                </station>
+                <station id="89" name="金钟河大街" line="6号线 5号线">
+                    <neighbors>
+                        <neighbor>建昌道</neighbor>
+                        <neighbor>月牙河</neighbor>
+                        <neighbor>民权门</neighbor>
+                        <neighbor>徐庄子</neighbor>
+                    </neighbors>
+                </station>
+                <station id="90" name="月牙河" line="5号线">
+                    <neighbors>
+                        <neighbor>金钟河大街</neighbor>
+                        <neighbor>幸福公园</neighbor>
+                    </neighbors>
+                </station>
+                <station id="91" name="幸福公园" line="5号线">
+                    <neighbors>
+                        <neighbor>月牙河</neighbor>
+                        <neighbor>靖江路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="92" name="靖江路" line="2号线 5号线">
+                    <neighbors>
+                        <neighbor>顺驰桥</neighbor>
+                        <neighbor>成林道</neighbor>
+                        <neighbor>幸福公园</neighbor>
+                        <neighbor>翠阜新村</neighbor>
+                    </neighbors>
+                </station>
+                <station id="93" name="成林道" line="5号线">
+                    <neighbors>
+                        <neighbor>靖江路</neighbor>
+                        <neighbor>津塘路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="94" name="津塘路" line="5号线">
+                    <neighbors>
+                        <neighbor>成林道</neighbor>
+                        <neighbor>直沽</neighbor>
+                    </neighbors>
+                </station>
+                <station id="95" name="直沽" line="5号线 9号线">
+                    <neighbors>
+                        <neighbor>十一经路</neighbor>
+                        <neighbor>下瓦房</neighbor>
+                        <neighbor>津塘路</neighbor>
+                        <neighbor>东兴路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="96" name="下瓦房" line="1号线 5号线">
+                    <neighbors>
+                        <neighbor>小白楼</neighbor>
+                        <neighbor>直沽</neighbor>
+                        <neighbor>西南楼</neighbor>
+                        <neighbor>南楼</neighbor>
+                    </neighbors>
+                </station>
+                <station id="97" name="西南楼" line="5号线">
+                    <neighbors>
+                        <neighbor>下瓦房</neighbor>
+                        <neighbor>文化中心</neighbor>
+                    </neighbors>
+                </station>
+                <station id="98" name="文化中心" line="6号线 5号线">
+                    <neighbors>
+                        <neighbor>乐园道</neighbor>
+                        <neighbor>天津宾馆</neighbor>
+                        <neighbor>西南楼</neighbor>
+                    </neighbors>
+                </station>
+                <station id="99" name="天津宾馆" line="6号线 5号线">
+                    <neighbors>
+                        <neighbor>肿瘤医院</neighbor>
+                        <neighbor>文化中心</neighbor>
+                    </neighbors>
+                </station>
+                <station id="100" name="肿瘤医院" line="6号线 5号线">
+                    <neighbors>
+                        <neighbor>水上公园东路</neighbor>
+                        <neighbor>天津宾馆</neighbor>
+                        <neighbor>体育中心</neighbor>
+                    </neighbors>
+                </station>
+                <station id="101" name="体育中心" line="5号线">
+                    <neighbors>
+                        <neighbor>肿瘤医院</neighbor>
+                        <neighbor>凌宾路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="102" name="凌宾路" line="5号线">
+                    <neighbors>
+                        <neighbor>体育中心</neighbor>
+                        <neighbor>昌凌路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="103" name="昌凌路" line="5号线">
+                    <neighbors>
+                        <neighbor>凌宾路</neighbor>
+                        <neighbor>中医一附院</neighbor>
+                    </neighbors>
+                </station>
+                <station id="104" name="中医一附院" line="5号线">
+                    <neighbors>
+                        <neighbor>昌凌路</neighbor>
+                        <neighbor>李七庄南</neighbor>
+                    </neighbors>
+                </station>
+                <station id="105" name="李七庄南" line="5号线">
+                    <neighbors>
+                        <neighbor>中医一附院</neighbor>
+                    </neighbors>
+                </station>
+            </stations>
+        </line>
+        <line name="6号线">
+            <stations>
+                <station id="106" name="南孙庄" line="6号线">
+                    <neighbors>
+                        <neighbor>南何庄</neighbor>
+                    </neighbors>
+                </station>
+                <station id="107" name="南何庄" line="6号线">
+                    <neighbors>
+                        <neighbor>南孙庄</neighbor>
+                        <neighbor>大毕庄</neighbor>
+                    </neighbors>
+                </station>
+                <station id="108" name="大毕庄" line="6号线">
+                    <neighbors>
+                        <neighbor>南何庄</neighbor>
+                        <neighbor>金钟街</neighbor>
+                    </neighbors>
+                </station>
+                <station id="109" name="金钟街" line="6号线">
+                    <neighbors>
+                        <neighbor>大毕庄</neighbor>
+                        <neighbor>徐庄子</neighbor>
+                    </neighbors>
+                </station>
+                <station id="110" name="徐庄子" line="6号线">
+                    <neighbors>
+                        <neighbor>金钟街</neighbor>
+                        <neighbor>金钟河大街</neighbor>
+                    </neighbors>
+                </station>
+                <station id="111" name="金钟河大街" line="6号线 5号线">
+                    <neighbors>
+                        <neighbor>建昌道</neighbor>
+                        <neighbor>月牙河</neighbor>
+                        <neighbor>民权门</neighbor>
+                        <neighbor>徐庄子</neighbor>
+                    </neighbors>
+                </station>
+                <station id="112" name="民权门" line="6号线">
+                    <neighbors>
+                        <neighbor>金钟河大街</neighbor>
+                        <neighbor>北宁公园</neighbor>
+                    </neighbors>
+                </station>
+                <station id="113" name="北宁公园" line="6号线">
+                    <neighbors>
+                        <neighbor>民权门</neighbor>
+                        <neighbor>北站</neighbor>
+                    </neighbors>
+                </station>
+                <station id="114" name="北站" line="3号线 6号线">
+                    <neighbors>
+                        <neighbor>中山路</neighbor>
+                        <neighbor>新开河</neighbor>
+                        <neighbor>铁东路</neighbor>
+                        <neighbor>北宁公园</neighbor>
+                    </neighbors>
+                </station>
+                <station id="115" name="新开河" line="6号线">
+                    <neighbors>
+                        <neighbor>北站</neighbor>
+                        <neighbor>外院附中</neighbor>
+                    </neighbors>
+                </station>
+                <station id="116" name="外院附中" line="6号线">
+                    <neighbors>
+                        <neighbor>新开河</neighbor>
+                        <neighbor>天泰路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="117" name="天泰路" line="6号线">
+                    <neighbors>
+                        <neighbor>外院附中</neighbor>
+                        <neighbor>北运河</neighbor>
+                    </neighbors>
+                </station>
+                <station id="118" name="北运河" line="6号线">
+                    <neighbors>
+                        <neighbor>天泰路</neighbor>
+                        <neighbor>北林路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="119" name="北林路" line="6号线">
+                    <neighbors>
+                        <neighbor>北运河</neighbor>
+                        <neighbor>西站</neighbor>
+                    </neighbors>
+                </station>
+                <station id="120" name="西站" line="1号线 6号线">
+                    <neighbors>
+                        <neighbor>复兴路</neighbor>
+                        <neighbor>西北角</neighbor>
+                        <neighbor>洪湖里</neighbor>
+                        <neighbor>北林路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="121" name="复兴路" line="6号线">
+                    <neighbors>
+                        <neighbor>西站</neighbor>
+                        <neighbor>人民医院</neighbor>
+                    </neighbors>
+                </station>
+                <station id="122" name="人民医院" line="6号线">
+                    <neighbors>
+                        <neighbor>复兴路</neighbor>
+                        <neighbor>长虹公园</neighbor>
+                    </neighbors>
+                </station>
+                <station id="123" name="长虹公园" line="2号线 6号线">
+                    <neighbors>
+                        <neighbor>宜宾道</neighbor>
+                        <neighbor>咸阳路</neighbor>
+                        <neighbor>人民医院</neighbor>
+                        <neighbor>广开四马路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="124" name="宜宾道" line="6号线">
+                    <neighbors>
+                        <neighbor>长虹公园</neighbor>
+                        <neighbor>鞍山西道</neighbor>
+                    </neighbors>
+                </station>
+                <station id="125" name="鞍山西道" line="6号线">
+                    <neighbors>
+                        <neighbor>宜宾道</neighbor>
+                        <neighbor>天拖</neighbor>
+                    </neighbors>
+                </station>
+                <station id="126" name="天拖" line="6号线">
+                    <neighbors>
+                        <neighbor>鞍山西道</neighbor>
+                        <neighbor>一中心医院</neighbor>
+                    </neighbors>
+                </station>
+                <station id="127" name="一中心医院" line="6号线">
+                    <neighbors>
+                        <neighbor>天拖</neighbor>
+                        <neighbor>红旗南路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="128" name="红旗南路" line="3号线 6号线">
+                    <neighbors>
+                        <neighbor>一中心医院</neighbor>
+                        <neighbor>王顶堤</neighbor>
+                        <neighbor>迎风道</neighbor>
+                        <neighbor>周邓纪念馆</neighbor>
+                    </neighbors>
+                </station>
+                <station id="129" name="迎风道" line="6号线">
+                    <neighbors>
+                        <neighbor>红旗南路</neighbor>
+                        <neighbor>南翠屏</neighbor>
+                    </neighbors>
+                </station>
+                <station id="130" name="南翠屏" line="6号线">
+                    <neighbors>
+                        <neighbor>迎风道</neighbor>
+                        <neighbor>水上公园东路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="131" name="水上公园东路" line="6号线">
+                    <neighbors>
+                        <neighbor>南翠屏</neighbor>
+                        <neighbor>肿瘤医院</neighbor>
+                    </neighbors>
+                </station>
+                <station id="132" name="肿瘤医院" line="6号线 5号线">
+                    <neighbors>
+                        <neighbor>水上公园东路</neighbor>
+                        <neighbor>天津宾馆</neighbor>
+                        <neighbor>体育中心</neighbor>
+                    </neighbors>
+                </station>
+                <station id="133" name="天津宾馆" line="6号线 5号线">
+                    <neighbors>
+                        <neighbor>肿瘤医院</neighbor>
+                        <neighbor>文化中心</neighbor>
+                    </neighbors>
+                </station>
+                <station id="134" name="文化中心" line="6号线 5号线">
+                    <neighbors>
+                        <neighbor>乐园道</neighbor>
+                        <neighbor>天津宾馆</neighbor>
+                        <neighbor>西南楼</neighbor>
+                    </neighbors>
+                </station>
+                <station id="135" name="乐园道" line="6号线">
+                    <neighbors>
+                        <neighbor>文化中心</neighbor>
+                        <neighbor>尖山路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="136" name="尖山路" line="6号线">
+                    <neighbors>
+                        <neighbor>乐园道</neighbor>
+                        <neighbor>黑牛城道</neighbor>
+                    </neighbors>
+                </station>
+                <station id="137" name="黑牛城道" line="6号线">
+                    <neighbors>
+                        <neighbor>尖山路</neighbor>
+                        <neighbor>梅江道</neighbor>
+                    </neighbors>
+                </station>
+                <station id="138" name="梅江道" line="6号线">
+                    <neighbors>
+                        <neighbor>黑牛城道</neighbor>
+                        <neighbor>左江道</neighbor>
+                    </neighbors>
+                </station>
+                <station id="139" name="左江道" line="6号线">
+                    <neighbors>
+                        <neighbor>梅江道</neighbor>
+                        <neighbor>梅江公园</neighbor>
+                    </neighbors>
+                </station>
+                <station id="140" name="梅江公园" line="6号线">
+                    <neighbors>
+                        <neighbor>左江道</neighbor>
+                        <neighbor>梅江会展中心</neighbor>
+                    </neighbors>
+                </station>
+                <station id="141" name="梅江会展中心" line="6号线">
+                    <neighbors>
+                        <neighbor>梅江公园</neighbor>
+                        <neighbor>解放南路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="142" name="解放南路" line="6号线">
+                    <neighbors>
+                        <neighbor>梅江会展中心</neighbor>
+                        <neighbor>洞庭路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="143" name="洞庭路" line="6号线">
+                    <neighbors>
+                        <neighbor>解放南路</neighbor>
+                        <neighbor>梅林路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="144" name="梅林路" line="6号线">
+                    <neighbors>
+                        <neighbor>洞庭路</neighbor>
+                    </neighbors>
+                </station>
+            </stations>
+        </line>
+        <line name="9号线">
+            <stations>
+                <station id="146" name="天津站" line="3号线 2号线 9号线">
+                    <neighbors>
+                        <neighbor>津湾广场</neighbor>
+                        <neighbor>金狮桥</neighbor>
+                        <neighbor>远洋国际中心</neighbor>
+                        <neighbor>大王庄</neighbor>
+                        <neighbor>建国道</neighbor>
+                    </neighbors>
+                </station>
+                <station id="147" name="大王庄" line="9号线">
+                    <neighbors>
+                        <neighbor>天津站</neighbor>
+                        <neighbor>十一经路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="148" name="十一经路" line="9号线">
+                    <neighbors>
+                        <neighbor>大王庄</neighbor>
+                        <neighbor>直沽</neighbor>
+                    </neighbors>
+                </station>
+                <station id="149" name="直沽" line="5号线 9号线">
+                    <neighbors>
+                        <neighbor>十一经路</neighbor>
+                        <neighbor>下瓦房</neighbor>
+                        <neighbor>津塘路</neighbor>
+                        <neighbor>东兴路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="150" name="东兴路" line="9号线">
+                    <neighbors>
+                        <neighbor>直沽</neighbor>
+                        <neighbor>中山门</neighbor>
+                    </neighbors>
+                </station>
+                <station id="151" name="中山门" line="9号线">
+                    <neighbors>
+                        <neighbor>东兴路</neighbor>
+                        <neighbor>一号桥</neighbor>
+                    </neighbors>
+                </station>
+                <station id="152" name="一号桥" line="9号线">
+                    <neighbors>
+                        <neighbor>中山门</neighbor>
+                        <neighbor>二号侨</neighbor>
+                    </neighbors>
+                </station>
+                <station id="153" name="二号侨" line="9号线">
+                    <neighbors>
+                        <neighbor>一号桥</neighbor>
+                        <neighbor>张贵庄</neighbor>
+                    </neighbors>
+                </station>
+                <station id="154" name="张贵庄" line="9号线">
+                    <neighbors>
+                        <neighbor>二号侨</neighbor>
+                        <neighbor>新立</neighbor>
+                    </neighbors>
+                </station>
+                <station id="155" name="新立" line="9号线">
+                    <neighbors>
+                        <neighbor>张贵庄</neighbor>
+                        <neighbor>东丽开发区</neighbor>
+                    </neighbors>
+                </station>
+                <station id="156" name="东丽开发区" line="9号线">
+                    <neighbors>
+                        <neighbor>新立</neighbor>
+                        <neighbor>小东庄</neighbor>
+                    </neighbors>
+                </station>
+                <station id="157" name="小东庄" line="9号线">
+                    <neighbors>
+                        <neighbor>东丽开发区</neighbor>
+                        <neighbor>军粮城</neighbor>
+                    </neighbors>
+                </station>
+                <station id="158" name="军粮城" line="9号线">
+                    <neighbors>
+                        <neighbor>小东庄</neighbor>
+                        <neighbor>钢管公司</neighbor>
+                    </neighbors>
+                </station>
+                <station id="159" name="钢管公司" line="9号线">
+                    <neighbors>
+                        <neighbor>军粮城</neighbor>
+                        <neighbor>胡家园</neighbor>
+                    </neighbors>
+                </station>
+                <station id="160" name="胡家园" line="9号线">
+                    <neighbors>
+                        <neighbor>钢管公司</neighbor>
+                        <neighbor>塘沽</neighbor>
+                    </neighbors>
+                </station>
+                <station id="161" name="塘沽" line="9号线">
+                    <neighbors>
+                        <neighbor>胡家园</neighbor>
+                        <neighbor>泰达</neighbor>
+                    </neighbors>
+                </station>
+                <station id="162" name="泰达" line="9号线">
+                    <neighbors>
+                        <neighbor>塘沽</neighbor>
+                        <neighbor>市民广场</neighbor>
+                    </neighbors>
+                </station>
+                <station id="163" name="市民广场" line="9号线">
+                    <neighbors>
+                        <neighbor>泰达</neighbor>
+                        <neighbor>太湖路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="164" name="太湖路" line="9号线">
+                    <neighbors>
+                        <neighbor>市民广场</neighbor>
+                        <neighbor>会展中心</neighbor>
+                    </neighbors>
+                </station>
+                <station id="165" name="会展中心" line="9号线">
+                    <neighbors>
+                        <neighbor>太湖路</neighbor>
+                        <neighbor>东海路</neighbor>
+                    </neighbors>
+                </station>
+                <station id="166" name="东海路" line="9号线">
+                    <neighbors>
+                        <neighbor>会展中心</neighbor>
+                    </neighbors>
+                </station>
+            </stations>
+        </line>
+    </lines>
+</subway>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<station id="1" name="站点1" line="1号线 2号线">
+    <neighbors>
+        <neighbor>站点2</neighbor>
+        <neighbor>站点3</neighbor>
+    </neighbors>
+</station>
